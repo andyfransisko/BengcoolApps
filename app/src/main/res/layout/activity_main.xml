@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgapps"
+    android:layout_height="match_parent">
+
+    <!--Tulisan Welcome -->
+    <TextView
+        android:id="@+id/tvCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="60dp"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <!-- Mulai Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="40dp">
+
+            <Button
+                android:id="@+id/buttonServices"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/bookservice"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Book Services"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/buttonCheckBook"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="My Booking"
+                android:textAllCaps="false"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/mybooking"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="40dp">
+
+            <Button
+                android:id="@+id/buttonChat"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/livechat"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Live Chat Support"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/buttonMap"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Nearest Partner"
+                android:textAllCaps="false"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/location"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="40dp">
+
+            <Button
+                android:id="@+id/buttonProfile"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/editprofile"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Edit Profile"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/buttonLogOut"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/mybutton"
+                android:drawableTop="@drawable/logout"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo3"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "730913974478",
+    "firebase_url": "https://bengcool-apps.firebaseio.com",
+    "project_id": "bengcool-apps",
+    "storage_bucket": "bengcool-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730913974478:android:a95a3acf0139254f38089f",
+        "android_client_info": {
+          "package_name": "com.example.bengcool_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730913974478-4j8fdsodn1rofnut3sriv8pm8168uu2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bengcool_apps",
+            "certificate_hash": "134e8e4b0f35cdb43aaa7c9b853552ca9adc7022"
+          }
+        },
+        {
+          "client_id": "730913974478-uivs9bk7uniopqrenrqpps64hcgndupn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bengcool_apps",
+            "certificate_hash": "eb5eea2832a819481f162baa76ab47a5b5423344"
+          }
+        },
+        {
+          "client_id": "730913974478-ndu0pu5u384uk3aokmmo2475m6me57k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM-OiNXXkZicY7K6_AGu4TDd-nigB700Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730913974478-ndu0pu5u384uk3aokmmo2475m6me57k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

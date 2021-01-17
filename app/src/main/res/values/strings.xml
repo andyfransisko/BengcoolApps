@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BengCool-Apps</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string-array name="daftar_bengkel">
+        <item>Bengkel Maju Sejahtera</item>
+        <item>Bengkel Agung</item>
+        <item>Bengkel Setiamaju</item>
+        <item>Bengkel Setia abadi</item>
+        <item>Bengkel Pratama</item>
+    </string-array>
+
+    <string-array name="daftar_servis">
+        <item>Servis Mobil</item>
+        <item>Ganti Oli</item>
+        <item>Ganti Ban</item>
+        <item>Cuci Mobil</item>
+    </string-array>
+
+</resources>
